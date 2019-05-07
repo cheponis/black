@@ -1,3 +1,21 @@
+As usual with 'opinionated' software, this one gets 'close' but has Wrong Opinons in some areas.
+
+One area that's non-negotiable is:  4 spaces for indent.  Indent is fundamental to Python, and 4 is just plain... wrong.
+
+Numerous studies (cite) have shown that the best indentation for code of this sort is... 3.  However, it was noted that since 3 is not a power of two, or something mumble, programmers round up to 4.
+
+This is just plain wrong.
+
+In fact, I can give an argument that 2 is the correct indentation, depending on font.
+
+My main point is: it is still an active area of research as to what the optimal (from a cognition point of view) is for indented code.
+
+Therefore, we should never <b>assume</b> we've 'bolted in' the 'correct' opinion, that of course being whatever 'we' think is 'right'.
+
+In that spirit, and in the belief this is the only major problem with black, I am suggesting a switch to allow 2, 3, or 4 spaces indent. I do believe there may be font dependencies, as I've pointed out, even for non-proportional fonts.  And, frankly....who really cares if Person 2 of a team likes 2-space-indents, and person 3 likes 3-space (like me)?  
+
+That is, the point of being <b>visually</b> appealing, consistent with maximal human cognition, trumps slavish consistency.  After all, "A slavish consistency is the hobgoblin of small minds." <a href="https://angerjiho.fr.gd/a-slavish-consistency-is-the-hobgoblin-of-small-minds.htm"> Referernce </a>
+
 ![Black Logo](https://raw.githubusercontent.com/python/black/master/docs/_static/logo2-readme.png)
 <h2 align="center">The Uncompromising Code Formatter</h2>
 
